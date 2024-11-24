@@ -6,11 +6,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/dota2-frontend-project/',
+    base: '/',
   }
 
   if (command !== 'serve') {
-    config.base = '/react-vite-gh-pages/'
+    config.base = '/dota2-frontend-project/'
   }
 
   return config
