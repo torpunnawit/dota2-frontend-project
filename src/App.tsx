@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <Router basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}>
+    <Router basename={import.meta.env.DEV ? '/' : '/dota2-frontend-project/'}>
       <Routes >
         <Route path="/" element={<Navigate to="/hero" replace />} />
         <Route path="/hero" element={<HeroesPage />} />
